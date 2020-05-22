@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.color-white {
+  color: #fff!important
+}
+.width-list{
+    max-width: 1278px;
+    margin: 0 auto;
+}
+.font-styles{
+  font-family: "Arial";
+  color: rgb(68, 81, 97);
+}
+.flex-block{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+.figure-flex{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.back-color-grey{
+  background-color: #f5f5f5;
+}
+ul li{
+  list-style: none;
+}
+.container{
+   background-color: #445162;
+}
+.section-header{
+  font-size: 30px;
+  text-align: center;
+  font-family: "Arial";
+  font-weight: 300;
+  color: rgb(68, 81, 97);
+}
+.main-header{
+  padding: 50px 0 59px 0;
+}
+.main-header-wrapper h1{
+  font-size: 60px;
+  font-family: "Arial";
+  line-height: 1.2;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+.main-header-wrapper ul li{
+  padding-bottom: 0px;
+  font-size: 20px;
+   line-height: 1.8;
+}
+.tick {
+  width: 4px;
+  height: 15px;
+  border: solid #fff;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 2px;
+  border-radius: 1px;
+  transform: rotate(45deg);
+  margin-right: 17px;
+}
+
+.about{
+  padding: 50px 0 135px 0 ;
+}
+.about-text{
+  width: 660px;
+  
+}
+.about-text{
+   margin-right: 100px;
+}
+.about-text p{
+   font-size: 18px;
+   padding-bottom: 25px;
+}
+.about h1{
+  margin-bottom: 30px;
+}
+.dignity{
+  padding-bottom: 50px;
+}
+.dignity-figures-wrapper{
+  flex-wrap: wrap;
+}
+.dignity-figure{
+  width: 50%;
+  margin-bottom: 40px;
+}
+.dignity h1{
+  margin-bottom: 35px;
+}
+.dignity-figure-caption{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: 10px;
+  width: 532px;
+}
+.dignity-figure img{
+  width: 30px;
+  height: 30px;
+  margin-top: 7px;
+}
+
+.screenshots {
+  margin: 50px 0;
+}
+.screenshots h1{
+  margin-bottom: 35px;
+}
+.screenshots-wrapper{
+  flex-wrap: wrap;
+}
+.screenshots-figure {
+  width: 50%;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.screenshots-figure-caption{
+ width: 60%;
+ margin-left: 15px;
+}
+.screenshots-figure-caption h2{
+  font-size: 24px;
+  line-height: 1.25;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.screenshots-figure-caption p{
+  font-size: 18px;
+  line-height: 1.5;
+}

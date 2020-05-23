@@ -24,6 +24,7 @@
     display: -o-flex;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .figure-flex {
@@ -89,10 +90,6 @@ ul li {
 
 .about-text {
     width: 660px;
-
-}
-
-.about-text {
     margin-right: 100px;
 }
 
@@ -107,10 +104,6 @@ ul li {
 
 .dignity {
     padding-bottom: 50px;
-}
-
-.dignity-figures-wrapper {
-    flex-wrap: wrap;
 }
 
 .dignity-figure {
@@ -143,10 +136,6 @@ ul li {
     margin-bottom: 35px;
 }
 
-.screenshots-wrapper {
-    flex-wrap: wrap;
-}
-
 .screenshots-figure {
     width: 50%;
     margin-bottom: 30px;
@@ -168,4 +157,27 @@ ul li {
 .screenshots-figure-caption p {
     font-size: 18px;
     line-height: 1.5;
+}
+
+@media screen and (max-width: 760px) {
+    .width-list {
+        padding: 0 5%;
+    }
+    .flex-block {
+        display: block;
+    }
+    .main-header{
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+    .screenshots-figure, .dignity-figure, .about-text {
+        width: 100%;
+    }
+    .dignity-figures-wrapper{
+        align-items: center;
+        margin: 0 auto;
+    }
+    .about-text {
+        margin-right: 0;
+    }
 }
